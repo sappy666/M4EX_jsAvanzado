@@ -7,7 +7,7 @@ import Aguila from './aguila.js';
 let investigatedAnimals = [];
 
 let animalsPromise = (async () => {
-  let url = '../../animales.json';
+  let url = './animales.json';
   try {
     const response = await fetch(url);
     if (!response.ok) {
